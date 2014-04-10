@@ -1,0 +1,9 @@
+include README.rst
+exclude README.md
+include AUTHORS
+include LICENSE
+include MANIFEST.in
+include requirements.pip
+recursive-include pyjswidgets *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]

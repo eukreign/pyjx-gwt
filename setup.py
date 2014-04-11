@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name="pyjx-gwt",
-    version="0.1.0",
+    version="0.1.1",
     description="Port of Google Web Toolkit to Python.",
     author="Lex Berezhny",
     author_email="lex@damoti.com",

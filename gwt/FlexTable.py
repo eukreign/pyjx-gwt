@@ -14,10 +14,10 @@
 # limitations under the License.
 import pyjd
 if pyjd.is_desktop:
-    from __pyjamas__ import doc
-from pyjamas import Factory
+    from __html5__ import doc
+from html5 import Factory
 
-from pyjamas import DOM
+from html5 import DOM
 
 from gwt.HTMLTable import HTMLTable
 from gwt.RowFormatter import RowFormatter

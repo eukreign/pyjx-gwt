@@ -7,14 +7,14 @@ Flash embedding Panel
 @contact: tobi-weber@gmx.de
 """
 
-from pyjamas import DOM
+from html5 import DOM
 from gwt.Panel import Panel
-from __pyjamas__ import wnd
+from __html5__ import wnd
 import pyjd
 if not pyjd.is_desktop:
     from __javascript__ import Array, Object, eval
 
-#from pyjamas import logging
+#from html5 import logging
 #log = logging.getAppendLogger(__name__, logging.DEBUG, logging.PLAIN_FORMAT)
 
 def browser():

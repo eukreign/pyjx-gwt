@@ -18,11 +18,11 @@
 - */
 """
 
-from __pyjamas__ import console
-from pyjamas import DOM
-from pyjamas import Window
-from pyjamas import DeferredCommand
-from pyjamas.EventController import EventGenerator
+from __html5__ import console
+from html5 import DOM
+from html5 import Window
+from html5 import DeferredCommand
+from html5.EventController import EventGenerator
 from gwt import GlassWidget
 from gwt.SimplePanel import SimplePanel
 from gwt.AbsolutePanel import AbsolutePanel

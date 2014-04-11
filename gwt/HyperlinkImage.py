@@ -3,9 +3,9 @@
 # Copyright (C) 2009 Luke Kenneth Casson Leighton <lkcl@lkcl.net>
 
 from gwt.Hyperlink import Hyperlink
-from pyjamas import Factory
+from html5 import Factory
 from gwt.Image import Image
-from pyjamas import DOM
+from html5 import DOM
 from gwt import Event
 from gwt import MouseListener
 

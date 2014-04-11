@@ -1,8 +1,8 @@
 from gwt.HTMLPanel import HTMLPanel
 from gwt.Hyperlink import Hyperlink
 
-from pyjamas import Window
-from pyjamas import DOM
+from html5 import Window
+from html5 import DOM
 
 class HTMLLinkPanel(HTMLPanel):
     def __init__(self, html="", **kwargs):

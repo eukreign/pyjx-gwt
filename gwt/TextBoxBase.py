@@ -12,9 +12,9 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-from pyjamas import DOM
-from pyjamas import Factory
-from __pyjamas__ import console, JS
+from html5 import DOM
+from html5 import Factory
+from __html5__ import console, JS
 from gwt.FocusWidget import FocusWidget
 from gwt.ChangeListener import ChangeHandler
 from gwt.InputListener import InputHandler

@@ -15,10 +15,10 @@
 * the License.
 """
 
-from __pyjamas__ import doc, wnd, get_main_frame, JS
+from __html5__ import doc, wnd, get_main_frame, JS
 
-from pyjamas import DOM
-from pyjamas.Timer import Timer
+from html5 import DOM
+from html5.Timer import Timer
 
 from gwt.RichTextAreaImpl import RichTextAreaImpl
 from gwt import RichTextAreaConsts

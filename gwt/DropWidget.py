@@ -13,9 +13,9 @@
 # limitations under the License.
 
 
-from pyjamas import Factory
-from pyjamas import DOM
-from pyjamas.dnd.DNDHelper import dndHelper
+from html5 import Factory
+from html5 import DOM
+from html5.dnd.DNDHelper import dndHelper
 from gwt.Widget import Widget
 from gwt.DropHandler import DropHandler
 import pyjd

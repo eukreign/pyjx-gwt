@@ -12,12 +12,12 @@ Here is an example for using it with an image::
         from gwt.RootPanel import RootPanel
         from gwt.Image import Image
         root = RootPanel()
-        image = Image('http://pyjs.org/img/pyjamas.128x128.png')
+        image = Image('http://pyjs.org/img/html5.128x128.png')
         anchor = Anchor(Widget=image, Href='http://pyjs.org')
         root.add(anchor)
 """
 
-from pyjamas import DOM
+from html5 import DOM
 from gwt.Widget import Widget
 from gwt.ClickListener import ClickHandler
 

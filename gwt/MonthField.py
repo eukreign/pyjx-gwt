@@ -4,7 +4,7 @@ from gwt.HorizontalPanel import HorizontalPanel
 from gwt.Hyperlink import Hyperlink
 from gwt.SimplePanel import SimplePanel
 
-from pyjamas.locale import _
+from html5.locale import _
 
 class NoDaysCalendar(Calendar):
 

@@ -42,8 +42,8 @@ down-disabled|getDownDisabledFace()|button is down and disabled|down
 
 """
 
-from pyjamas    import DOM
-from pyjamas import Factory
+from html5    import DOM
+from html5 import Factory
 from gwt import Event
 from ButtonBase import ButtonBase
 from gwt import Focus
@@ -500,7 +500,7 @@ class CustomButton (ButtonBase):
         self.fireEvent(ClickEvent()) # TODO: ???
 
     def fireEvent(self):
-        # TODO: there is no standard mechanism in pyjamas?
+        # TODO: there is no standard mechanism in html5?
         pass
 
     def getCurrentFace(self):

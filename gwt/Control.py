@@ -13,10 +13,10 @@
 
 """
 
-from pyjamas import Factory
+from html5 import Factory
 import math
-from pyjamas import DOM
-from pyjamas import Window
+from html5 import DOM
+from html5 import Window
 from gwt.FocusWidget import FocusWidget
 from gwt.MouseListener import MouseHandler, MouseWheelHandler
 from gwt import KeyboardListener

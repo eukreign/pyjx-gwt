@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from pyjamas import Factory
-from pyjamas import DOM
+from html5 import Factory
+from html5 import DOM
 from gwt.Widget import Widget
 from gwt.MouseListener import MouseHandler
 from gwt.DragHandler import DragHandler
-from pyjamas.dnd import makeDraggable, DNDHelper
+from html5.dnd import makeDraggable, DNDHelper
 import pyjd
 
 class DragWidget(object):

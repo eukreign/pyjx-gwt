@@ -19,7 +19,7 @@ under the License.
 
 """
 from gwt.SplitPanel import SplitPanel
-from pyjamas import Factory
+from html5 import Factory
 
 
 class HorizontalSplitPanel(SplitPanel):

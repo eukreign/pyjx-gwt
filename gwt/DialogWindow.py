@@ -12,8 +12,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-from pyjamas import DOM
-from pyjamas import Factory
+from html5 import DOM
+from html5 import Factory
 
 from gwt.UIObject import UIObject
 from DialogBox import DialogBox
@@ -27,7 +27,7 @@ from gwt.Image import Image
 from gwt.Button import Button
 from gwt import GlassWidget
 from gwt import HasAlignment
-import pyjamas.Window
+import html5.Window
 
 # Depends on CSS
 # .gwt-DialogBox .Minimize {
@@ -175,8 +175,8 @@ class DialogWindow(DialogBox):
             width = self.getWidth()
             self._maximized = (top, left, height, width)
             top = left = 0
-            height = int(pyjamas.Window.getClientHeight()) - 4
-            width = int(pyjamas.Window.getClientWidth()) - 4
+            height = int(html5.Window.getClientHeight()) - 4
+            width = int(html5.Window.getClientWidth()) - 4
         self.setPopupPosition(left, top)
         self.panel.setHeight(height)
         self.panel.setWidth(width)

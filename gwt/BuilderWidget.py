@@ -6,7 +6,7 @@ Copyright (C) 2010 Luke Kenneth Casson Leighton <lkcl@lkcl.net>
 
 Create a BuilderWidget as follows::
 
-    from pyjamas.builder.Builder import Builder
+    from html5.builder.Builder import Builder
     from gwt.BuilderWidget import BuilderWidget
 
 either::

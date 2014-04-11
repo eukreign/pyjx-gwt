@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from pyjamas import DOM
+from html5 import DOM
 from gwt import Event
 
 DROP_EVENTS = [ "dragenter", "dragover", "dragleave", "drop"]
@@ -62,7 +62,7 @@ class DropHandler(object):
 
         You may inspect the event's dataTransfer member.
 
-        You may get the types using pyjamas.dnd.getTypes(event).
+        You may get the types using html5.dnd.getTypes(event).
 
         This event is used to determine whether the drop target may
         accept the drop. If the drop is to be accepted, then this event has

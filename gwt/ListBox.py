@@ -12,13 +12,13 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-from pyjamas import DOM
-from pyjamas import Factory
+from html5 import DOM
+from html5 import Factory
 
 from gwt.FocusWidget import FocusWidget
 from gwt.ChangeListener import ChangeHandler
 from gwt import Event
-from __pyjamas__ import console
+from __html5__ import console
 
 class ListBox(FocusWidget, ChangeHandler):
 
@@ -125,7 +125,7 @@ class ListBox(FocusWidget, ChangeHandler):
     def selectValue(self, value):
         """ selects the ListBox according to a value.
             to select by item, see selectItem.
-            # http://code.google.com/p/pyjamas/issues/detail?id=63
+            # http://code.google.com/p/html5/issues/detail?id=63
         """
         for n in range(self.getItemCount()):
             if self.getValue(n) == value:
@@ -136,7 +136,7 @@ class ListBox(FocusWidget, ChangeHandler):
     def selectItem(self, item):
         """ selects the ListBox according to an item's text
             to select by value, see selectValue.
-            # http://code.google.com/p/pyjamas/issues/detail?id=63
+            # http://code.google.com/p/html5/issues/detail?id=63
         """
         for n in range(self.getItemCount()):
             if self.getItemText(n) == item:

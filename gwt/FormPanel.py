@@ -12,11 +12,11 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-from __pyjamas__ import JS
-from pyjamas import Factory, DOM
+from __html5__ import JS
+from html5 import Factory, DOM
 import pyjd
 if pyjd.is_desktop:
-    from __pyjamas__ import get_main_frame
+    from __html5__ import get_main_frame
 
 from gwt.SimplePanel import SimplePanel
 from gwt import Event

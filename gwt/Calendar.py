@@ -4,7 +4,7 @@
 # Copyright (C) 2012 Łukasz Mach <maho@pagema.net>
 
 from gwt.SimplePanel import SimplePanel
-from pyjamas import Factory
+from html5 import Factory
 from gwt.VerticalPanel import  VerticalPanel
 from gwt.HorizontalPanel import HorizontalPanel
 from gwt.PopupPanel import  PopupPanel
@@ -18,7 +18,7 @@ from gwt.FocusPanel import FocusPanel
 from gwt.TextBox import TextBox
 from gwt.Image import Image
 from gwt import HasAlignment
-from pyjamas import DOM
+from html5 import DOM
 
 import pygwt
 

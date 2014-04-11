@@ -20,8 +20,8 @@
 # added by Phil Charlesworth 2010-09-16
 #
 
-from pyjamas import DOM
-from pyjamas import Factory
+from html5 import DOM
+from html5 import Factory
 
 from gwt.Panel import Panel
 from gwt import Event

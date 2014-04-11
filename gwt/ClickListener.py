@@ -2,7 +2,7 @@
     Copyright (C) 2008, 2009 - Luke Kenneth Casson Leighton <lkcl@lkcl.net>
 
 """
-from pyjamas import DOM
+from html5 import DOM
 from gwt import Event
 
 class ClickHandler(object):

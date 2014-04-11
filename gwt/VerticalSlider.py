@@ -14,8 +14,8 @@
 
 """
 
-from pyjamas import Factory
-from pyjamas import DOM
+from html5 import Factory
+from html5 import DOM
 from gwt import Focus
 from gwt.Control import Control
 

@@ -14,12 +14,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 from gwt.Composite import Composite
-from pyjamas import Factory
+from html5 import Factory
 from gwt.Widget import Widget
 from gwt.SimplePanel import SimplePanel
 from gwt.VerticalPanel import VerticalPanel
 from gwt import Event
-from pyjamas import DOM
+from html5 import DOM
 import pygwt
 
 class ClickableHeader(SimplePanel):

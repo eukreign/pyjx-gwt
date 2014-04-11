@@ -16,7 +16,7 @@
 """
 
 
-from pyjamas import DOM
+from html5 import DOM
 
 from gwt import Event
 from gwt import Focus

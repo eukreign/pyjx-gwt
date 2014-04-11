@@ -3,12 +3,12 @@
 # Copyright (C) 2009 Luke Kenneth Casson Leighton <lkcl@lkcl.net>
 
 from gwt.PopupPanel import PopupPanel
-from pyjamas import Factory
+from html5 import Factory
 from gwt.HTML import HTML
 from gwt.RootPanel import RootPanel
-from pyjamas.Timer import Timer
-from pyjamas import Window
-from pyjamas import DOM
+from html5.Timer import Timer
+from html5 import Window
+from html5 import DOM
 
 tooltip_hide_timer = None
 

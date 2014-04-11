@@ -12,9 +12,9 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-from pyjamas import DOM
+from html5 import DOM
 from gwt import Event
-from pyjamas.EventController import Handler
+from html5.EventController import Handler
 
 def fireMouseEvent(listeners, sender, event):
     x = DOM.eventGetClientX(event) - DOM.getAbsoluteLeft(sender.getElement())

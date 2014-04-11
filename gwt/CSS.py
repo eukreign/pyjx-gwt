@@ -4,8 +4,8 @@
     Copyright (C) 2010, Luke Kenneth Casson Leighton <lkcl@lkcl.net>
 """
 
-from __pyjamas__ import doc
-from pyjamas import DOM
+from __html5__ import doc
+from html5 import DOM
 
 class StyleSheetCssFile:
 

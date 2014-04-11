@@ -13,10 +13,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-from pyjamas import DOM
-from pyjamas import Factory
+from html5 import DOM
+from html5 import Factory
 
-from pyjamas import DeferredCommand
+from html5 import DeferredCommand
 from gwt.Widget import Widget
 from gwt.MenuItem import MenuItem
 from gwt.MenuBarPopupPanel import MenuBarPopupPanel

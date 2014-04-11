@@ -1,9 +1,9 @@
 # Copyright (C) 2006-2008 Google Inc.
 # Copyright (C) 2009 Luke Kenneth Casson Leighton <lkcl@lkcl.net>
 
-from pyjamas import DOM
+from html5 import DOM
 from gwt.SimplePanel import SimplePanel
-from pyjamas import Factory
+from html5 import Factory
 from gwt.TabPanel import TabPanel
 from gwt.TabBar import TabBar
 

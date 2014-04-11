@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from pyjamas import DOM
-from pyjamas import Factory
+from html5 import DOM
+from html5 import Factory
 from gwt.Label import Label
 
 class InlineLabel(Label):

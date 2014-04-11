@@ -4,7 +4,7 @@ class MultiListener(object):
     # The combinations that are coupled. E.g., if onFocus is defined, then
     # onLostFocus should also be defined. The set method will substitute the
     # missing methods with the ignore method.
-    # See also pyjamas.builder.Builder.eventListeners
+    # See also html5.builder.Builder.eventListeners
     combinations = dict(
         onFocus = ["onLostFocus"],
         onLostFocus = ["onFocus"],

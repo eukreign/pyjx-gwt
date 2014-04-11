@@ -13,10 +13,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-from pyjamas import DOM
-from pyjamas import Window
-from pyjamas import Factory
-from __pyjamas__ import JS, doc
+from html5 import DOM
+from html5 import Window
+from html5 import Factory
+from __html5__ import JS, doc
 from gwt.SimplePanel import SimplePanel
 from gwt.RootPanel import RootPanel
 from gwt import MouseListener

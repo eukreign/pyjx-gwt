@@ -13,9 +13,9 @@
 
 """
 
-from pyjamas import Factory
+from html5 import Factory
 import math
-from pyjamas import DOM
+from html5 import DOM
 from gwt.FocusWidget import FocusWidget
 from gwt import Focus
 from gwt.MouseListener import MouseHandler

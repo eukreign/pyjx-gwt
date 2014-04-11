@@ -10,7 +10,7 @@
 # http://gwt.components.googlepages.com/auto-completiontextbox
 
 from gwt.TextBox import TextBox
-from pyjamas import Factory
+from html5 import Factory
 from gwt.PopupPanel import PopupPanel
 from gwt.ListBox import ListBox
 from gwt import KeyboardListener

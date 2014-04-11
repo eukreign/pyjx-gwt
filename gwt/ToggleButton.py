@@ -13,7 +13,7 @@
 # the License.
 
 from gwt.CustomButton import CustomButton
-from pyjamas import Factory
+from html5 import Factory
 
 class ToggleButton (CustomButton):
     """

@@ -23,10 +23,10 @@ from gwt.CheckBox import CheckBox
 from gwt.Button import Button
 from gwt.TextBox import TextBox
 
-from __pyjamas__ import doc
+from __html5__ import doc
 
-from pyjamas import DOM
-from pyjamas import Window
+from html5 import DOM
+from html5 import Window
 from gwt.Image import Image
 from gwt.ChangeListener import ChangeHandler
 from gwt.ClickListener import ClickHandler
@@ -39,12 +39,12 @@ from gwt.ToggleButton import ToggleButton
 from gwt.VerticalPanel import VerticalPanel
 from gwt.Widget import Widget
 
-from pyjamas.Timer import Timer
+from html5.Timer import Timer
 
-from pyjamas.selection.RangeEndPoint import RangeEndPoint
-from pyjamas.selection.Range import Range
-from pyjamas.selection.RangeUtil import getAdjacentTextElement
-from pyjamas.selection import Selection
+from html5.selection.RangeEndPoint import RangeEndPoint
+from html5.selection.Range import Range
+from html5.selection.RangeUtil import getAdjacentTextElement
+from html5.selection import Selection
 
 import string
 import traceback

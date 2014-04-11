@@ -13,11 +13,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 import sys
-from __pyjamas__ import doc
-from pyjamas import Factory
+from __html5__ import doc
+from html5 import Factory
 
-from pyjamas import DOM
-from pyjamas import Window
+from html5 import DOM
+from html5 import Window
 
 from gwt.AbsolutePanel import AbsolutePanel
 

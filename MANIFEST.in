@@ -4,6 +4,6 @@ include AUTHORS
 include LICENSE
 include MANIFEST.in
 include requirements.pip
-recursive-include pyjswidgets *
+recursive-include gwt *
 recursive-exclude * __pycache__
 recursive-exclude * *.py[co]
